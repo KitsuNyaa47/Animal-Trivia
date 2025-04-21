@@ -1,0 +1,22 @@
+body {text-align: center;
+      background-color: #CB88FE;
+      font-family: Georgia, sans-serif;
+      padding: 10px;
+      font-weight: normal;
+      color: #3B0068;}
+
+h1 {font-weight: normal;
+    font-size: 35px;}
+
+hr {color: #3B0068;}
+
+h2 {font-weight: normal;
+    font-size: 32px;}
+
+a:link,
+a:visited {font-family: Georgia, sans-serif;
+           font-size: 30px;
+           color: #3B0068;
+           display: inline-block;
+           margin: 20px;}
+

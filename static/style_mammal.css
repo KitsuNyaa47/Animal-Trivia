@@ -1,0 +1,41 @@
+body {text-align: center;
+      font-family: Georgia, sans-serif;
+      background-color: #FE7E7E;
+      color: #860000;
+      padding: 7px;}
+
+hr {color: #860000;}
+
+h1 {font-weight: normal;
+    font-size: 35px;}
+
+h2 {font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin-top: 15px;}
+
+label {font-size: 27px;}
+
+input {font-size: 27px;
+       font-family: Georgia, sans-serif;
+       padding: 4px;
+       background-color: #FEC1C1;
+       color: #860000;
+       outline: none;
+       border-color: #FE7E7E;}
+
+button {background-color: #FEC1C1;
+        color: #860000;
+        font-size: 25px;
+        padding: 4px;
+        font-family: Georgia, sans-serif;}
+
+button:hover {background-color: #860000;
+              color: #FEC1C1;
+              cursor: pointer;}
+
+p {font-size: 25px;}
+
+a:link,
+a:visited {color: #860000;
+           font-size: 25px;}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess The Bird</title>
+    <link rel="stylesheet" href="static/style_bird.css">
+</head>
+<body>
+
+<h1>Guess the Bird Species!</h1>
+<hr>
+<h2>Enter your guess below:</h2>
+<img src="{{ url_for('static', filename=image) }}" alt="Bird Picture" height="400" style="margin-bottom:20px;">
+<br>
+<form method="post">
+    <label for="guess">Your answer: </label>
+    <input type="text" name="guess" id="guess" required>
+    <button type="submit" name="submit_guess" style="margin-left: 20px;">Submit</button>
+</form>
+<form method="post">
+    <button type="submit" name="previous" style="margin-right: 40px; margin-top: 20px; margin-bottom: 20px;">Previous</button>
+    <button type="submit" name="next">Next</button>
+</form>
+<form method="post">
+    <button type="submit" name="bird_reveal">Reveal Answer</button>
+</form>
+
+<p>{{ message }}</p>
+
+{% if answer %}
+    <p><strong>Answer: </strong>{{ answer }}</p>
+{% endif %}
+<hr>
+<p>Click below to return to the homepage:</p>
+<a href="{{ url_for('home') }}">🦩 Homepage 🦩</a>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Trivia</title>
+    <link rel="stylesheet" href="static/style_home.css">
+</head>
+<body>
+
+<h1>Animal Trivia Homepage</h1>
+<hr>
+<img src="static/cat_and_dog.jpg" alt="Cat and Dog" height="400" style="margin: 20px;">
+<h2>Click on a link below to start playing: </h2>
+
+<a href="{{ url_for('birds') }}">🦆 Guess the Bird 🦆</a>
+<br>
+<a href="{{ url_for('mammals') }}">🐱 Guess the Mammal 🐱</a>
+<br>
+<a href="{{ url_for('reptiles') }}">🐍 Guess the Reptile 🐍</a>
+</body>
+</html>
